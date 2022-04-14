@@ -41,9 +41,6 @@ function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen} style={{ visibility: "hidden" }}>
-        Open modal
-      </Button>
       <Modal
         open={open}
         onClose={handleClose}

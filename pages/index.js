@@ -10,6 +10,7 @@ const home = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Header />
+
       <BasicModal />
       <Menu />
       <Services />
@@ -40,7 +41,9 @@ function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+      <Button onClick={handleOpen} style={{ visibility: "hidden" }}>
+        Open modal
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}

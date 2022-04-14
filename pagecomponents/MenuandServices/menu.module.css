@@ -1,0 +1,59 @@
+.item1 {
+  position: absolute;
+  left: 0;
+  max-width: 40%;
+  top: 0px;
+  max-height: 200px;
+}
+
+.item3 {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  max-width: 40%;
+  max-height: 250px;
+}
+
+.item2 {
+  position: absolute;
+  max-width: 46%;
+  max-height: 310px;
+  top: 25%;
+  left: 0px;
+}
+
+@media (max-height: 763px) {
+  .headcontainer {
+    margin-top: 55px;
+  }
+  .head {
+    font-size: 25px;
+    font-family: Inter;
+    color: #4a302c;
+  }
+  .menucontainer {
+    margin-top: 34px;
+    gap: 10px;
+  }
+  .desc {
+    margin-top: 10px;
+  }
+}
+
+@media (min-height: 763px) {
+  .headcontainer {
+    margin-top: 112px;
+  }
+  .head {
+    font-size: 45px;
+    font-family: Inter;
+    color: #4a302c;
+  }
+  .menucontainer {
+    margin-top: 34px;
+    gap: 25px;
+  }
+  .desc {
+    margin-top: 25px;
+  }
+}

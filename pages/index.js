@@ -52,10 +52,6 @@ function BasicModal() {
             Frontend task done by Amrit Babu Tiwari (babuamrit25@gmail.com)
             .click outside this box to view the project
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            project assigned by Akriti Shrestha, HR Department, Pagoda Labs Pvt.
-            Ltd, Kumaripati, Lalitpur, Contact number:9841142514
-          </Typography>
         </Box>
       </Modal>
     </div>

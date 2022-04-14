@@ -53,8 +53,8 @@ function BasicModal() {
             .click outside this box to view the project
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Akriti Shrestha, HR Department, Pagoda Labs Pvt. Ltd, Kumaripati,
-            Lalitpur, Contact number:9841142514
+            project assigned by Akriti Shrestha, HR Department, Pagoda Labs Pvt.
+            Ltd, Kumaripati, Lalitpur, Contact number:9841142514
           </Typography>
         </Box>
       </Modal>

@@ -34,7 +34,7 @@ const style = {
 };
 
 function BasicModal() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -50,9 +50,10 @@ function BasicModal() {
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Frontend task done by Amrit Babu Tiwari (babuamrit25@gmail.com)
+            .click outside this box to view the project
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            kriti Shrestha, HR Department, Pagoda Labs Pvt. Ltd, Kumaripati,
+            Akriti Shrestha, HR Department, Pagoda Labs Pvt. Ltd, Kumaripati,
             Lalitpur, Contact number:9841142514
           </Typography>
         </Box>
